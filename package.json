@@ -1,16 +1,23 @@
 {
   "name": "todos",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command line tool to fetch and display the first 20 even numbered TODOs",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest ./src/index.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["TODOs", "NodeJS"],
+  "author": "Kedar Vijay Kulkarni",
+  "contributors": [
+    {
+      "name": "Kedar Vijay Kulkarni",
+      "url": "https://github.com/kedarvijaykulkarni"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.7"
+    "axios": "^1.6.7",
+    "jest": "^29.7.0"
   }
 }
